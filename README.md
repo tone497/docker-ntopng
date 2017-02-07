@@ -1,5 +1,6 @@
 ## How to use this image
 
+chmod +x go.sh
 run go.sh or
 
 ## docker build -t ntop .
