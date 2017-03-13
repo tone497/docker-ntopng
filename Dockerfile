@@ -1,7 +1,6 @@
 FROM ubuntu:14.04
 MAINTAINER tone497 <tone497@gmail.com>
 
-
 RUN apt-get update
 RUN apt-get -y -q install curl
 RUN curl -s --remote-name http://packages.ntop.org/apt/14.04/all/apt-ntop.deb
