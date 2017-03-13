@@ -1,4 +1,6 @@
 FROM ubuntu:14.04
+MAINTAINER tone497 <tone497@gmail.com>
+
 
 RUN apt-get update
 RUN apt-get -y -q install curl
